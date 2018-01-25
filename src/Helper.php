@@ -1,8 +1,8 @@
 <?php
 
-namespace Hungnguyen\Apiconnectionservice;
+namespace Hungnguyenba\Apiconnectionservice;
 
-use Hungnguyen\Curl\Curl;
+use Hungnguyenba\Curl\Curl;
 
 trait Helper
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Hungnguyen\Apiconnectionservice;
+namespace Hungnguyenba\Apiconnectionservice;
 
-use Hungnguyen\Apiconnectionservice\Helper;
+use Hungnguyenba\Apiconnectionservice\Helper;
 
 trait Service
 {
