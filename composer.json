@@ -8,5 +8,7 @@
             "email": "bahung1221@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "hungnguyenba/curl": "^0.0.1"
+    }
 }
