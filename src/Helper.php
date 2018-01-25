@@ -23,10 +23,10 @@ trait Helper
         return $this->getCurl()->put($api, $ids, $this->isValid($input));
     }
 
-    // protected function delete(string $api, int $id)
-    // {
-    //     $this->getCurl()->delete($api, $id);
-    // }
+    protected function deleteById(string $api, int $id)
+    {
+        $this->getCurl()->delete($api, $id);
+    }
 
     protected function getCurl()
     {
