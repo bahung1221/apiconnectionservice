@@ -18,7 +18,7 @@ trait Helper
         return $this->getCurl()->post($api, $this->isValid($input));
     }
 
-    protected function put(string $api, string $ids, array $input = []) : array
+    protected function put(string $api, $ids, array $input = []) : array
     {
         return $this->getCurl()->put($api, $ids, $this->isValid($input));
     }
