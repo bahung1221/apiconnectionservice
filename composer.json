@@ -1,0 +1,12 @@
+{
+    "name": "hungnguyen/apiconnectionservice",
+    "description": "Service for eloquent ApiConnection (validate eloquent model, send api request to curl)",
+    "type": "library",
+    "authors": [
+        {
+            "name": "bahung1221",
+            "email": "bahung1221@gmail.com"
+        }
+    ],
+    "require": {}
+}
