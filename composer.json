@@ -10,5 +10,10 @@
     ],
     "require": {
         "hungnguyenba/curl": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hungnguyenba\\Apiconnectionservice\\": "src/"
+        }
     }
 }
