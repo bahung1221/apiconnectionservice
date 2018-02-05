@@ -36,7 +36,7 @@ trait Helper
     protected function put(string $api, $ids, array $input = []) : array
     {
         $tag = $this->getTag($input);
-
+        
         return $this->getCurl()
                     ->setSpecialTag($tag)
                     ->put($api, $ids, $this->isValid($input));
@@ -77,6 +77,7 @@ trait Helper
         } elseif (is_null($input['is_valid'] ?? null)) {
             $input['is_valid'] = 1;
         }
+
         return $input;
     }
 }
