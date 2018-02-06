@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "hungnguyenba/curl": "^0.0.3"
+        "hungnguyenba/curl": "^0.0.4"
     },
     "autoload": {
         "psr-4": {

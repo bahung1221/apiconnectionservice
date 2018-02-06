@@ -44,11 +44,7 @@ trait Helper
 
     protected function deleteById(string $api, int $id)
     {
-        $tag = $this->getTag($input);
-
-        $this->getCurl()
-            ->setSpecialTag($tag)
-            ->delete($api, $id);
+        $this->getCurl()->delete($api, $id);
     }
 
     protected function getCurl()
@@ -57,13 +53,6 @@ trait Helper
             $this->curl = new Curl($this->config['host']);
         }
         return $this->curl;
-    }
-
-    protected function initCurl(string $url)
-    {
-        unset($this->curl);
-        $this->curl = new Curl($url);
-        return $this;
     }
 
     protected function isValid(array &$input) : array
